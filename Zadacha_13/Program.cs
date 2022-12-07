@@ -3,7 +3,7 @@
 Console.Clear();
 Console.WriteLine("Введите число");
 int number = int.Parse(Console.ReadLine());
-int number2 = 0;
+int number3 = 0;
 int numberGap = 0;
 
 if(number < 100)
@@ -17,8 +17,8 @@ else
  {
      number = number / 10;
  }
-   number2 = number % 10;
-   Console.WriteLine ($"{numberGap} -> {number2}");
+   number3 = number % 10;
+   Console.WriteLine ($"{numberGap} -> {number3}");
 }
 
 
